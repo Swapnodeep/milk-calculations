@@ -14,7 +14,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="p-0 m-0 block box-border overflow-x-hidden">
+        {children}
+      </body>
     </html>
   );
 }
